@@ -1,6 +1,6 @@
 
 VeganCoin SHA256
-25,000,000 coins
+25,000,000 coins 25,000,000
 Block Rewaard = 25 coins
 Halving 200,000 blocks
 rpc = 22116
@@ -40,6 +40,12 @@ sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb
 (navigate to VeganCoin/src)
 
 make -f makefile.unix
+
+________________
+
+If compile fails
+
+sudo apt-get install git build-essential libssl-dev libboost-all-dev libdb++-dev libminiupnpc-dev qt-sdk -y
 
 ________________
 
