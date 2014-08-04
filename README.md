@@ -1,4 +1,3 @@
-
 VeganCoin SHA256
 25,000,000 coins 25,000,000
 Block Rewaard = 25 coins
@@ -10,15 +9,14 @@ ________________
 
 Sample VeganCoin.conf
 
-rpcuser=VeganCoinrpc
-rpcrpcpassword=2596a6a36d42416b5486386c
+rpcuser=Yourname
+rpcrpcpassword=Yourpassword
 rpcallowip=127.0.0.1
 rpcport=22116
 port=22117
-daemon=1
-server=1
-gen=0
 addnode=104.131.234.129
+addnode=188.226.162.76
+addnode=54.186.136.108
 
 _______________
 
@@ -54,12 +52,6 @@ Sample VeganCoin.conf for daemon
 daemon=1
 rpcuser=VeganCoinrpc
 rpcrpcpassword=2596a6a36d42416b5486386c
-
-
-
-
-
-
 
 
 
